@@ -685,6 +685,10 @@ body{
   inset: -0.25rem;
 }
 
+.bottom-0{
+  bottom: 0px;
+}
+
 .end-1{
   inset-inline-end: 0.25rem;
 }
@@ -878,10 +882,6 @@ body{
 
 .w-full{
   width: 100%;
-}
-
-.max-w-\[350px\]{
-  max-width: 350px;
 }
 
 .flex-shrink{
@@ -1220,10 +1220,6 @@ body{
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -1742,6 +1738,10 @@ body{
   border-radius: 0.5rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
 .rounded-b{
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -1770,6 +1770,11 @@ body{
 .rounded-t{
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+}
+
+.rounded-l-2xl{
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .rounded-bl{
@@ -2624,18 +2629,6 @@ body{
     display: none;
   }
 
-  .xxxs\:max-w-\[350px\]{
-    max-width: 350px;
-  }
-
-  .xxxs\:max-w-\[280px\]{
-    max-width: 280px;
-  }
-
-  .xxxs\:max-w-\[300px\]{
-    max-width: 300px;
-  }
-
   .xxxs\:max-w-\[290px\]{
     max-width: 290px;
   }
@@ -2650,28 +2643,8 @@ body{
     display: none;
   }
 
-  .xxs\:max-w-\[600px\]{
-    max-width: 600px;
-  }
-
-  .xxs\:max-w-\[590px\]{
-    max-width: 590px;
-  }
-
-  .xxs\:max-w-\[580px\]{
-    max-width: 580px;
-  }
-
-  .xxs\:max-w-\[570px\]{
-    max-width: 570px;
-  }
-
   .xxs\:max-w-\[560px\]{
     max-width: 560px;
-  }
-
-  .xxs\:grid-cols-1{
-    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .xxs\:grid-cols-2{
