@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product preview page</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./dict/output.css">
+</head>
+<body class="bg-custom-cream">
+    <main class="min-h-screen h-[100%] w-full flex justify-center items-center">
+        <section class="bg-white w-[90%] grid xxs:grid-cols-2 xxxs:grid-cols-1 xxxs:max-w-[290px] xxs:max-w-[560px]">
+            <article class="xxs:hidden">
+                <img src="./images/image-product-mobile.jpg" alt="logo">
+            </article>
+            <article class="xxxs:hidden">
+                <img src="./images/image-product-desktop.jpg" alt="logo" class="w-full h-full">
+            </article>
+            <article class="font-paragraph p-5 grid grid-cols-1 gap-4">
+                <div class="grid grid-cols-1 gap-3">
+                    <p class="font-medium uppercase">
+                        perfume
+                    </p>
+                    <h1 class="font-bold capitalize font-heading text-3xl">
+                       Gabrielle essence eau de parfum
+                    </h1>
+                    <p class="font-medium">
+                        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfume-Creator for the House of CHANEL. 
+                    </p>
+                </div>
+                <div class="flex text-center items-center gap-4">
+                        <p class="font-bold font-heading text-3xl text-custom-cyan"> 
+                            $149.99 
+                        </p>
+                        <p class="line-through"> 
+                            $169.99 
+                        </p>
+                </div>
+                <div>
+                    <button class="bg-custom-cyan w-full text-center flex items-center justify-center gap-2 p-4 rounded-lg hover:bg-custom-dark-blue"> 
+                            <img src="./images/icon-cart.svg" alt="cart-logo" class="w-4">
+                            <p class="text-white font-normal">
+                                Add to cart
+                            </p>
+                    </button>
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
